@@ -1,0 +1,23 @@
+{
+  "id": "./?utm_source=pwa",
+  "name": "自家焙煎 喫茶店 蘭豆 公式サイト",
+  "short_name": "喫茶店 蘭豆",
+  "description": "こだわりの豆と静かな空間。喫茶店 蘭豆の公式アプリです。最新メニューや限定クーポンをお届けします。",
+  "start_url": "./?utm_source=pwa&utm_medium=icon",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#4e342e",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
