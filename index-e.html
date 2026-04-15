@@ -1082,12 +1082,12 @@ input[type],textarea,select,.input{
             msg: String(form.querySelector('[name="msg"]')?.value || "").trim(),
             rating: ratingValue,
             occurred_at: new Date().toISOString(),
-            type: 'feedback',
+            type: 'whisper',
             status: 'received',
         };
-        
+
         setFormBusy_(form, btn, true, "送信中…");
-        submitToGASViaIframe_fireAndForget_(form, "feedback", payload);
+        submitToGASViaIframe_fireAndForget_(form, "whisper", payload);
         
         // Re-enable the button after a short delay
         setTimeout(() => { setFormBusy_(form, btn, false); }, 1000);
